@@ -2,8 +2,8 @@
   "bindings": [
     {
       "type": "eventHubTrigger",
-      "name": "myEventHubMessage",
-      "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
+      "name": "tmsoftechdr",
+      "connection": "Endpoint=sb://tmsoftechdr.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=R7ehMtgaEIMHf0co3mz8yREfivGKpVkfA+AEhFsIns0=",
       "eventHubName": "logs",
       "consumerGroup": "$Default",
       "direction": "in",
