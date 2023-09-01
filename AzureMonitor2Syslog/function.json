@@ -6,7 +6,8 @@
       "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
       "eventHubName": "logs",
       "consumerGroup": "$Default",
-      "direction": "in"
+      "direction": "in",
+      "cardinality": "many"
     }
   ]
 }
